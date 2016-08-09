@@ -1,0 +1,191 @@
+[ 2016-04-05T13:53:36+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-04-05T13:54:38+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-04-05T13:55:46+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-04-05T14:01:28+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/
+ERR: SQLSTATE[HY000] [1049] Unknown database 'meizu'
+
+[ 2016-04-05T14:01:30+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/
+ERR: SQLSTATE[HY000] [1049] Unknown database 'meizu'
+
+[ 2016-04-05T14:05:30+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.050679s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.000833s ]
+
+[ 2016-04-05T14:05:43+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.006353s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.000714s ]
+
+[ 2016-04-05T14:05:47+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.004847s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.000635s ]
+
+[ 2016-04-05T14:05:55+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Post/demo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2016-04-05T14:06:03+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Reply/demo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2016-04-05T14:06:06+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Reply/demo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000803s ]
+
+[ 2016-04-05T14:07:26+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.004711s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.000668s ]
+
+[ 2016-04-05T14:07:26+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Index/type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: DESCRIBE meizu_goods [ RunTime:0.004984s ]
+SQL: SELECT * FROM `meizu_goods` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-04-05T14:07:32+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Login/check?userName=%E5%B0%8F%E8%B6%85
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.004894s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = '小超'  [ RunTime:0.000383s ]
+
+[ 2016-04-05T14:07:38+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Login/check?userName=%E5%88%98%E5%B8%85%E6%89%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.005031s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = '刘帅才'  [ RunTime:0.000420s ]
+
+[ 2016-04-05T14:07:48+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002046s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.005106s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.000638s ]
+
+[ 2016-04-05T14:07:57+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Client/check.html?id=6&password=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.004860s ]
+SQL: SELECT `password` FROM `meizu_user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-04-05T14:08:00+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Client/check.html?id=6&password=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.005043s ]
+SQL: SELECT `password` FROM `meizu_user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2016-04-05T14:08:01+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Client/demo5.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.005436s ]
+SQL: SELECT `email` FROM `meizu_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.000325s ]
+
+[ 2016-04-05T14:08:13+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Client/demo4.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.004769s ]
+SQL: SELECT * FROM `meizu_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.000385s ]
+
+[ 2016-04-05T14:08:38+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Draw/demo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2016-04-05T14:08:38+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Draw/demo2.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.005724s ]
+SQL: SELECT * FROM `meizu_award` WHERE `time` BETWEEN '1459785600' AND '1459871999' AND `uid` = 6 LIMIT 1   [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-04-05T14:08:39+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Draw/demo3.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.008518s ]
+SQL: SELECT * FROM `meizu_user` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.000420s ]
+SQL: UPDATE `meizu_user` SET `score`=2060 WHERE ( id=6 ) [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-04-05T14:08:39+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Client/award.html?number=1&id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.007796s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.007624s ]
+SQL: SELECT `userName` FROM `meizu_user` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000456s ]
+SQL: INSERT INTO `meizu_award` (`award`,`uid`,`time`,`userName`) VALUES ('膳魔师保湿杯',6,1459836519,'刘帅才') [ RunTime:0.001960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-05T14:08:51+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Draw/demo2.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.004640s ]
+SQL: SELECT * FROM `meizu_award` WHERE `time` BETWEEN '1459785600' AND '1459871999' AND `uid` = 6 LIMIT 1   [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-04-05T14:08:51+08:00 ] 127.0.0.1 /MEizu-SunShine/meizu_demo/MeiZu-SunShine/index.php/Home/Draw/demo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+

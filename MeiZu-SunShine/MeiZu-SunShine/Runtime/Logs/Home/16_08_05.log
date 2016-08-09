@@ -1,0 +1,7 @@
+[ 2016-08-05T11:23:57+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.044003s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.018001s ]
+

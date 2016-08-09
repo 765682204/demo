@@ -1,0 +1,814 @@
+[ 2016-08-09T15:58:41+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.060004s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.018001s ]
+
+[ 2016-08-09T15:59:19+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:59:20+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo2.shtml?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.009001s ]
+SQL: SELECT * FROM `meizu_award` WHERE `time` BETWEEN '1470672000' AND '1470758399' AND `uid` = 0 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:59:22+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo3.shtml?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.093005s ]
+SQL: SELECT * FROM `meizu_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `meizu_user` WHERE ( id= ) LIMIT 1  
+SQL: UPDATE `meizu_user` SET `score`=-50 WHERE ( id= ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `meizu_user` SET `score`=-50 WHERE ( id= )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:59:24+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-09T15:59:25+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo2.shtml?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.010001s ]
+SQL: SELECT * FROM `meizu_award` WHERE `time` BETWEEN '1470672000' AND '1470758399' AND `uid` = 0 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T15:59:26+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo3.shtml?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_user` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `meizu_user` WHERE ( id= ) LIMIT 1  
+SQL: UPDATE `meizu_user` SET `score`=-50 WHERE ( id= ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `meizu_user` SET `score`=-50 WHERE ( id= )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:59:30+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Login/check?userName=root
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = 'root'  [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:59:33+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Login/check?userName=root
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = 'root'  [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:59:39+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Login/check?userName=root
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010001s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = 'root'  [ RunTime:0.001000s ]
+
+[ 2016-08-09T15:59:41+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Login/check?userName=root
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = 'root'  [ RunTime:0.001001s ]
+
+[ 2016-08-09T15:59:49+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Login/check?userName=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.009001s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = ''  [ RunTime:0.000000s ]
+
+[ 2016-08-09T15:59:55+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Login/check?userName=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.009001s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = ''  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:00:10+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:00:59+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Login/check?userName=%E5%88%98%E8%B6%85
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010001s ]
+SQL: SELECT * FROM `meizu_user` WHERE `userName` = '刘超'  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:01:15+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.011001s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:01:25+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo2.shtml?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_award` WHERE `time` BETWEEN '1470672000' AND '1470758399' AND `uid` = 9 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:01:25+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-09T16:01:27+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Client/award.shtml?number=2&id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.011000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010001s ]
+SQL: SELECT `userName` FROM `meizu_user` WHERE `id` = 9 LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `meizu_award` (`award`,`uid`,`time`,`userName`) VALUES ('25煤球',9,1470729686,'刘超') [ RunTime:0.050003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T16:01:28+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo3.shtml?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.011001s ]
+SQL: SELECT * FROM `meizu_user` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `meizu_user` SET `score`=300 WHERE ( id=9 ) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T16:01:49+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:01:50+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo2.shtml?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_award` WHERE `time` BETWEEN '1470672000' AND '1470758399' AND `uid` = 9 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:01:54+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:01:55+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Draw/demo2.shtml?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_award [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_award` WHERE `time` BETWEEN '1470672000' AND '1470758399' AND `uid` = 9 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-09T16:02:04+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.009001s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:02:10+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:03:31+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:03:35+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Post/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:03:54+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Reply/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:03:55+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Reply/demo2.shtml?pid=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_post [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_post` WHERE ( pid=8 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:04:11+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Reply/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:04:15+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Reply/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:04:21+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Revert/add.shtml?pid=8&uid=9&id=5&content=jfldsjfsld
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_revert [ RunTime:0.010000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.009001s ]
+SQL: INSERT INTO `meizu_revert` (`uid`,`zid`,`content1`,`time`) VALUES (9,5,'jfldsjfsld',1470729861) [ RunTime:0.075004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T16:04:59+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Post/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:05:00+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Post/demo.shtml
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:05:08+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.005000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:05:09+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.011001s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:05:18+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Client/demo5.shtml?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.009000s ]
+SQL: SELECT `email` FROM `meizu_user` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:05:24+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Client/demo4.shtml?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_user` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:06:16+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Client/check.shtml?id=9&password=aaaaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.009001s ]
+SQL: SELECT `password` FROM `meizu_user` WHERE `id` = 9 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:06:19+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Client/check.shtml?id=9&password=aaaaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.011001s ]
+SQL: SELECT `password` FROM `meizu_user` WHERE `id` = 9 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T16:06:28+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Client/check.shtml?id=9&password=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010000s ]
+SQL: SELECT `password` FROM `meizu_user` WHERE `id` = 9 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:06:32+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Client/check.shtml?id=9&password=aaaaaa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_user [ RunTime:0.010000s ]
+SQL: SELECT `password` FROM `meizu_user` WHERE `id` = 9 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T16:09:07+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.013000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:09:58+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Index/type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_goods [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_goods` WHERE `pid` = 1 AND `status` = 1  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:00+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Index/type
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_goods [ RunTime:0.010001s ]
+SQL: SELECT * FROM `meizu_goods` WHERE `pid` = 7 AND `status` = 1  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T16:10:04+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:07+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.010001s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:14+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: INSERT INTO `meizu_shop` (`gid`,`net`,`color`,`snum`,`mem`,`uid`) VALUES (13,'EP-21HD+耳机+','',1,'',9) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-09T16:10:16+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/insert
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.017001s ]
+SQL: INSERT INTO `meizu_shop` (`gid`,`net`,`color`,`snum`,`mem`,`uid`) VALUES (13,'EP-21HD+耳机+','',1,'',9) [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:17+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.009001s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:19+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.011001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:21+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:22+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:23+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:24+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=4 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:25+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:26+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=4 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:27+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=5 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:28+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.011001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:29+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.012000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:30+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:31+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:32+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:33+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:34+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=4 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:35+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.012001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=4 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:36+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=4 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:38+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=4 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:39+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:10:40+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:41+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:42+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:43+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:44+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:45+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:46+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:10:57+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:11:12+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.022002s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:11:23+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.009000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:11:28+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.010001s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:11:33+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.010001s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:11:36+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.054003s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:11:39+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.010000s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:01+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/city
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_area [ RunTime:0.046002s ]
+SQL: SELECT * FROM `meizu_area` WHERE `upid` = 0  [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:04+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:06+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:08+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=4 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:10+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.011001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:11+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:12+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=3 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:13+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:14+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:15+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:16+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:17+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:18+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:19+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:20+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:21+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=2 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:22+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.001000s ]
+
+[ 2016-08-09T16:12:23+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010000s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:25+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.009001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:26+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.010001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.000000s ]
+
+[ 2016-08-09T16:12:27+08:00 ] ::1 /MeiZu-SunShine/index.php/Home/Shop/update
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE meizu_shop [ RunTime:0.011001s ]
+SQL: UPDATE `meizu_shop` SET `snum`=1 WHERE `id` = 17 [ RunTime:0.001000s ]
+
